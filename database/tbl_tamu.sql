@@ -1,0 +1,8 @@
+CREATE TABLE tbl_tamu (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    tgl DATE NOT NULL,
+    nama VARCHAR(100) NOT NULL,
+    alamat TEXT NOT NULL,
+    tujuan VARCHAR(255) NOT NULL,
+    nope VARCHAR(15) NOT NULL
+);
