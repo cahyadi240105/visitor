@@ -27,6 +27,7 @@ Proyek ini dikembangkan sebagai bagian dari pembelajaran pengembangan sistem inf
 * Tabel riwayat kunjungan harian
 * Validasi input pengunjung
 * Antarmuka bersih dan mudah digunakan
+* Rekapitulsai ke dalam excel
 
 ## 🚀 Cara Menjalankan Proyek
 
@@ -40,12 +41,15 @@ Proyek ini dikembangkan sebagai bagian dari pembelajaran pengembangan sistem inf
 
 ```
 e-tamu/
-├── assets/              # File CSS, JS, dan gambar
-├── config/              # File koneksi database
-├── form/                # Halaman form pengisian tamu
-├── admin/               # Halaman admin & dashboard
-├── index.php            # Form utama pengisian tamu
-└── admin-login.php      # Halaman login admin
+├── css/              
+├── database/           
+├── img/               
+├── js/
+├── sccs/   
+├── vendor/            
+├── index.php            
+└── cek_login.php      
+...
 ```
 
 *Silakan ubah kredensial login di database untuk alasan keamanan.*
